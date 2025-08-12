@@ -57,23 +57,28 @@ p{
 /*Mid section stuff*/
 .card{
   width: 300px;
-  margin: 10px 100px;
+  margin-left: 50px;
 }
 
 .col{
   display: flex;
 }
-
+.card-img-top{
+  border: 4px solid #9d44b5;
+  width: 305px;
+}
 
 #message{
-  font-size: 20px;
-  
+  font-size: 30px;
 }
 
 #m-box{
-  width: 650px;
-  justify-content: center;
+  width: 1250px;
+  height: 650px;
+  display: flex;
   text-align: center;
+  align-items: center;
+  margin-right: 15px;
 }
 
 #h3{
@@ -86,9 +91,8 @@ p{
 
 .mid-section{
   display: flex; 
-  justify-content: space-between;
-  gap: 50px;
   align-items: center;
+  height: 650px;
 }
 
 
@@ -129,10 +133,14 @@ p{
   width: 250px;
 }
 
+.subtitle{
+  color: #9d44b5;
+}
+
 .mini-nav2{
   display: flex;
   justify-content: space-between;
-  margin: 2px 2px;
+  margin: 5px 5px;
 }
 
 .card-des{
@@ -145,17 +153,14 @@ p{
   text-align: center;
 }
 
-/* .card-link{
-  text
-} */
 
 /*Designs for the Second Page(brand kit)*/
 #color-cards{
   display: flex;
   justify-content:center;
   flex-wrap: wrap;
-
 }
+
 .col-md-8{
   width: 350px;
 }
@@ -166,6 +171,10 @@ p{
 
 .card-body{
   width: 300px;
+}
+
+.img-fluid rounded-start{
+  width: 600px
 }
 
 #font{
@@ -187,4 +196,7 @@ p{
 #socials{
   text-align: center;
   justify-content: center;
+  border: 2px dashed #9d44b5;
+  width: 500px;
+  margin: auto;
 }
