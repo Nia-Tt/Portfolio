@@ -155,6 +155,9 @@ p{
 
 
 /*Designs for the Second Page(brand kit)*/
+h3{
+  text-align: center;
+}
 #color-cards{
   display: flex;
   justify-content:center;
@@ -165,16 +168,16 @@ p{
   width: 350px;
 }
 .col-md-4{
-
-  width: 500px;
+  width: 350px;
 }
 
 .card-body{
-  width: 300px;
+  width: 250px;
 }
 
-.img-fluid rounded-start{
-  width: 600px
+.color-image{
+  width: 300px;
+  height: 200px;  
 }
 
 #font{
@@ -186,10 +189,26 @@ p{
 #wf-images{
   display: flex;
   justify-content: center;
+  gap: 30px;
+}
+
+#light-W{
+  width: 450px;
+  height: 300px;
+}
+
+#dark-W{
+  width: 450px;
+  height: 300px;
+}
+
+#w-Text{
+  text-align: center;
 }
 
 #wireframe{
   justify-content: center;
+  align-items: center;
 }
 
 /*Stuff for the contact page*/
