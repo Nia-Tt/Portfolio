@@ -219,3 +219,32 @@ h3{
   width: 500px;
   margin: auto;
 }
+
+/*Stuff for the about me page*/
+.facts{
+  width: 500px;
+  text-align: center;
+  justify-content: center;
+  border: 5px dashed #9d44b5;
+  margin: auto;
+}
+
+#details{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#c-history{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#hobbies{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+li{
+  font-weight: normal;
+  font-style: italic;
+}
