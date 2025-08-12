@@ -65,13 +65,15 @@ p{
 }
 
 
-  #message{
+#message{
   font-size: 20px;
-  }
+  
+}
 
 #m-box{
   width: 650px;
   justify-content: center;
+  text-align: center;
 }
 
 #h3{
@@ -86,6 +88,7 @@ p{
   display: flex; 
   justify-content: space-between;
   gap: 50px;
+  align-items: center;
 }
 
 
@@ -132,7 +135,19 @@ p{
   margin: 2px 2px;
 }
 
+.card-des{
+  border: 2px solid black;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
 
+/* .card-link{
+  text
+} */
 
 /*Designs for the Second Page(brand kit)*/
 #color-cards{
