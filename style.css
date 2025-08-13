@@ -253,6 +253,11 @@ h3{
   color: #cce6f4;
 }
 
+#pong{
+  width: 600px;
+  height: 300px;
+}
+
 
 /*Stuff for the about me page*/
 .facts{
