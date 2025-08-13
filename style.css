@@ -220,6 +220,34 @@ h3{
   margin: auto;
 }
 
+/*Stuff for the projects page*/
+.accordion-item{
+  border: 2px solid black;
+  width: 1000px;
+  margin: auto;
+}
+
+#panelsStayOpen-collapseOne{
+  background-color: #484a47;
+  color: #cce6f4;
+}
+
+#panelsStayOpen-collapseTwo{
+  background-color: #484a47;
+  color: #cce6f4;
+}
+
+#panelsStayOpen-collapseThree{
+  background-color: #484a47;
+  color: #cce6f4;
+}
+
+#panelsStayOpen-collapseFour{
+  background-color: #484a47;
+  color: #cce6f4;
+}
+
+
 /*Stuff for the about me page*/
 .facts{
   width: 500px;
